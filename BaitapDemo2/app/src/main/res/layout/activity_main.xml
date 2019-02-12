@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bgColor">
+
+    <ImageView
+        android:id="@+id/viewimg"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/fblogo"
+
+        />
+
+    <EditText
+        android:id="@+id/edtUser"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/viewimg"
+        android:layout_centerHorizontal="true"
+
+        android:layout_marginLeft="@dimen/w20"
+        android:layout_marginTop="@dimen/w40"
+        android:layout_marginRight="@dimen/w20"
+        android:background="@drawable/drawwiget"
+        android:hint="@string/user"
+        android:paddingLeft="@dimen/w10"
+        android:paddingTop="@dimen/w15"
+        android:paddingBottom="@dimen/w15"
+        android:textSize="@dimen/s20" />
+
+    <EditText
+        android:id="@+id/edtPass"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/edtUser"
+        android:layout_centerHorizontal="true"
+        android:layout_margin="@dimen/w20"
+        android:background="@drawable/drawwiget"
+        android:hint="@string/Pass"
+        android:paddingLeft="@dimen/w10"
+        android:paddingTop="@dimen/w15"
+        android:paddingBottom="@dimen/w15"
+        android:textSize="@dimen/s20" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/edtPass"
+        android:layout_centerHorizontal="true"
+        android:layout_margin="@dimen/w20"
+        android:background="@drawable/cornerbutton"
+        android:paddingTop="@dimen/w15"
+        android:paddingBottom="@dimen/w15"
+        android:text="@string/login"
+        android:textColor="@color/white"
+        android:textSize="@dimen/s20" />
+
+    <TextView
+        android:id="@+id/tvSignUp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="@dimen/w10"
+        android:text="@string/Signup"
+        android:textColor="@color/white"
+        android:textSize="@dimen/s20"
+
+        />
+
+    <Button
+        android:layout_width="60dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginLeft="@dimen/w20"
+        android:layout_marginBottom="@dimen/w8"
+        android:layout_toRightOf="@+id/tvSignUp"
+        android:background="@drawable/cornerbutton"
+        android:text="?"
+        android:textColor="@color/white"
+        android:textSize="@dimen/s20"
+
+        />
+
+
+</RelativeLayout>

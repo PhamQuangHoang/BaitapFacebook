@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">BaitapDemo</string>
+    <string name="user">Email or Phone</string>
+    <string name="Pass">Password</string>
+    <string name="login">Login</string>
+    <string name="question">?</string>
+    <string name="Signup"><u>Sign Up For Facebook</u></string>
+</resources>

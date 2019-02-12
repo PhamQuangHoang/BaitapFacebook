@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="w25">25dp</dimen>
+    <dimen name="w40">40dp</dimen>
+    <dimen name="w15">15dp</dimen>
+    <dimen name="w10">10dp</dimen>
+    <dimen name="w8">8dp</dimen>
+    <dimen name="w16">16dp</dimen>
+    <dimen name="w20">20dp</dimen>
+    <dimen name="s20">20sp</dimen>
+
+    
+</resources>
